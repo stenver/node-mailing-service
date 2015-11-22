@@ -1,0 +1,29 @@
+{
+  "name": "node-mailing-service",
+  "description": "A simple service that sends plain-test emails",
+  "version": "0.0.1",
+  "author": "Stenver Jerkku <stenver1010@gmail.com>",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stenver/node-mailing-service"
+  },
+  "dependencies": {
+    "coffee-script": "~> 1.10.0",
+    "emailjs": "^1.0.0",
+    "kafka-node": "~> 0.2.29",
+    "ramda": "~> 0.18.0",
+    "sanctuary": "~> 0.7.1",
+    "validator": "^4.3.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "chai": "^3.4.1",
+    "memo-is": "0.0.2",
+    "sinon": "^1.17.2",
+    "sinon-chai": "^2.8.0"
+  } ,
+  "scripts": {
+    "test": "mocha"
+  }
+}
